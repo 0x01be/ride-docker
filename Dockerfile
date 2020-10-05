@@ -11,5 +11,5 @@ RUN git clone --depth 1 --branch ${RIDE_REVISION} https://github.com/adobe/ride.
 
 WORKDIR /ride/build
 
-RUN mvn -Dmaven.test.skip=true package
+#RUN mvn -Dmaven.test.skip=true package
 
